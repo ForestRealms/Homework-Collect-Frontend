@@ -1,0 +1,64 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+
+}
+
+.title{
+  font-size: xx-large;
+  margin-left: 40px;
+  font-weight: bolder;
+  /*margin-bottom: 2%;*/
+}
+
+.title_small{
+  font-size: x-large;
+  margin-left: 40px;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #index {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 8rem;
+  }
+
+  #user-page {
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    padding: 0 0;
+    alignment-baseline: baseline;
+
+  }
+  #user-page > * {
+    align-items: start;
+  }
+  #menu {
+    display: block;
+  }
+}
