@@ -48,11 +48,17 @@ a,
     padding: 0 8rem;
   }
 
+
+
   #user-page {
     display: grid;
-    grid-template-columns: 1fr 20fr;
-    padding: 0 0;
+    grid-template-columns: 2fr 20fr;
+    padding: 2rem;
+    gap: 2rem;
     alignment-baseline: baseline;
+    position: fixed;
+    top: 0;
+    left: 0;
 
   }
   #user-page > * {
